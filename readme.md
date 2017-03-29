@@ -46,4 +46,7 @@ The website will have a clear and unembellished look to it.  I have used winter 
 
 ## Skeleton
 Interface, navigation, information design
-![GitHub Logo](/img/wireframe.pdf)
+![GitHub Logo](/img/wireframe1.png)
+![GitHub Logo](/img/wireframe2.png)
+![GitHub Logo](/img/wireframe3.png)
+![GitHub Logo](/img/wireframe4.png)
