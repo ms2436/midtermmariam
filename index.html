@@ -2,24 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--Suggestion: might want to add your own css file in addition to this (in another line of course)-->
+    <link rel="stylesheet" href="css/edit.css"> <!--Note: Added a css file-->
     <title>Winter Driving</title>
   </head>
   <body>
-    <nav class="navbar navbar-default">
+
+  <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <!--Suggestion: Remove-->
+        <span class="sr-only">Toggle navigation</span>  <!--Suggestion: Remove-->
+        <span class="icon-bar"></span>  <!--Suggestion: Remove-->
+        <span class="icon-bar"></span>  <!--Suggestion: Remove-->
+        <span class="icon-bar"></span>  <!--Suggestion: Remove-->
+      </button>  <!--Suggestion: Remove-->
     <a class="navbar-brand" href="#">Winter Warriors</a>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><!--Suggestion: ID part can be removed, in my opinion.-->
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>  <!--Suggestion: Remove <span class="sr-only">(current)</span>-->
         <li><a href="driving.html">Learning</a></li>
         <li><a href="quiz.html">Quiz</a></li>
         <li><a href="resources.html">Resources</a></li>
@@ -27,15 +29,20 @@
     </div>
  </div>
 </nav>
-<body background="img/snowstormbg.jpg">
+
+<body background="img/snowstormbg.jpg"> <!--Suggestion: Duplication of BODY tag. And it's better to have a seperate CSS for all the styles.-->
+
 
 <div class="jumbotron">
-
+  <div class="indexTitleStyle"> <!-- added 100px gap-->
   <h1>It's Time for Winter Weather</h1>
   </div>
+</div>
+
+<div class="indexDescriptionStyle"><!-- added 100px gap-->
   <h3>Driving in ice, snow and sleet requires preparation. <br>Is your Car Ready for the Winter Season?  <br>Do You Have the Materials You Need in Case You Get Stuck?  <br>Do you Know What to do if Your Car Gets Caught in a Snowstorm?   <br>If you need answers to any of these questions, then start learning how to become a Winter Warrior.  </h3>
   <p><a class="btn btn-primary btn-lg" href="driving.html" role="button">Learn more</a></p>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script> <!--Suggestion: Put it between Head tags.-->
   </body>
 </html>
