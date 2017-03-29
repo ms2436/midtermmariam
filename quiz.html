@@ -3,25 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <title>Winter Driving</title>
+    <title>Winter Driving</title> <!--Suggestion: This is the same as the one on the Index page. You can change it if you want.-->
   </head>
+
   <body>
-    <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <!--Suggestion:Remove.-->
+        <span class="sr-only">Toggle navigation</span> <!--Suggestion:Remove.-->
+        <span class="icon-bar"></span> <!--Suggestion:Remove.-->
+        <span class="icon-bar"></span> <!--Suggestion:Remove.-->
+        <span class="icon-bar"></span> <!--Suggestion:Remove.-->
+      </button> <!--Suggestion:Remove.-->
       <a class="navbar-brand" href="#">Winter Warriors</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a href="driving.html">Learning</a></li>
+        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li> <!--Suggestion: ID part can be removed, in my opinion.-->
+        <li class="active"><a href="driving.html">Learning</a></li> <!--Suggestion: Should be the quiz page that is active..-->
         <li><a href="quiz.html">Quiz</a></li>
         <li><a href="resources.html">Resources</a></li>
       </ul>
@@ -29,13 +30,13 @@
  </div>
 </nav>
 
-<HEAD>
+<HEAD> <!--Suggestion: Duplicated HEAD tag, Remove.-->
 
 <style type="text/css">
 <!--
 .bgclr {background-color: white; color: black; font-weight: bold;}
 -->
-</style>
+</style> <!--All style elements should stay in CSS files.-->
 
 <script language="JavaScript">
 
@@ -79,10 +80,10 @@ function getScore(form) {
 
 </script>
 
-</HEAD>
+</HEAD> <!--Suggestion: Duplicated HEAD tag, Remove.-->
 
 
-<BODY>
+<BODY> <!--Suggestion: Duplicated BODY tag, Remove.-->
 
 <h3>Winter Weather Driving Quiz</h3>
 
@@ -119,5 +120,6 @@ function getScore(form) {
 Correct answers:<br>
 <textarea class="bgclr" name="solutions" wrap="virtual" rows="4" cols="30" disabled>
 </textarea>
-</form>
+</form> <!--Suggestion: Put a closing BODY tag after this.-->
 </html>
+
