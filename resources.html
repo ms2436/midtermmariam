@@ -3,24 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/edit.css">  <!--Note: Added a css file-->
     <title>Resoures for Winter Driving</title>
   </head>
   <body>
-    <nav class="navbar navbar-default">
+
+  <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <!--Suggestion:Remove.-->
+        <span class="sr-only">Toggle navigation</span><!--Suggestion:Remove.-->
+        <span class="icon-bar"></span><!--Suggestion:Remove.-->
+        <span class="icon-bar"></span><!--Suggestion:Remove.-->
+        <span class="icon-bar"></span><!--Suggestion:Remove.-->
+      </button> <!--Suggestion:Remove.-->
       <a class="navbar-brand" href="#">Winter Warriors</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <!--Suggestion: ID part can be removed, in my opinion.-->
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li> <!--Suggestion:Remove  <span class="sr-only">(current)</span>.-->
         <li><a href="driving.html">Learning</a></li>
         <li><a href="quiz.html">Quiz</a></li>
         <li class="active"><a href="resources.html">Resources</a></li>
@@ -28,11 +30,14 @@
     </div>
  </div>
 </nav>
-<header>
+
+<header> <!--Suggestion: This can be removed.-->
   <div class="page-header">
     <h1>Resources <small>keep learning, keep safe</small></h1>
   </div>
-</header>
+</header><!--Suggestion: This can be removed.-->
+
+<div class="wrap">   <!--Note: Added a wraper div with 100px right and left padding-->
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
@@ -66,8 +71,9 @@
     </div>
 </div>
 </div>
-<div class="row">
 </div>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+<div class="row"><!--Suggestion: This can be removed.-->
+</div><!--Suggestion: This can be removed.-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script> <!--Suggestion: This line should be in the head tags.-->
 </body>
 </html>
